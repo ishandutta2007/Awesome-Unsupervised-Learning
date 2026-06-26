@@ -85,4 +85,18 @@ Deploying unsupervised pipelines into enterprise MLOps architectures requires ba
 | [**Enterprise Cyber-Security & Fraud Anomaly Tracking**](./details/cybersecurity_anomaly_tracking.md) | **Application:** Scans millions of high-frequency banking or server transaction logs in real time. Unsupervised isolation forests or deep reconstruction autoencoders model the parameters of "normal" system behaviors, instantly flagging hidden cyber-attacks or laundering vectors if an execution deviates from the learned manifold. | 2008 | [Isolation Forest](https://doi.org/10.1109/ICDM.2008.17) (Liu et al., 2008) |
 | [**Industrial Bio-Informatics & Genetic Sequence Discovery**](./details/bioinformatics_genetic_discovery.md) | **Application:** Maps unannotated DNA, RNA, or protein peptide sequences spanning billions of elements. Unsupervised clustering taxomomies and deep autoencoding layers group complex molecules by structural geometry, accelerating de novo drug discovery and tracking evolutionary mutations efficiently. | 2021 | [Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1073/pnas.2016239118) (Rives et al., 2021) |
 
+---
+
+## Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Unsupervised-Learning&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Unsupervised-Learning&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Unsupervised-Learning&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Unsupervised-Learning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
 

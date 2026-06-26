@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <!-- Accent Gradient 1 -->
+    <linearGradient id="accent-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <!-- Accent Gradient 2 -->
+    <linearGradient id="accent-grad-2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-grad)" />
+
+  <!-- Abstract Unsupervised Learning Geometric Nodes & Clusters (Neural Net / PCA Style) -->
+  <!-- Connecting lines -->
+  <path d="M 200,200 L 400,100 L 600,250 L 800,120 L 1000,280" stroke="url(#accent-grad-1)" stroke-width="2" stroke-dasharray="8,4" opacity="0.3" />
+  <path d="M 200,200 L 350,300 L 600,250 L 750,320 L 1000,280" stroke="url(#accent-grad-2)" stroke-width="2" stroke-dasharray="5,5" opacity="0.3" />
+  <path d="M 400,100 L 350,300" stroke="#475569" stroke-width="1" opacity="0.2" />
+  <path d="M 800,120 L 750,320" stroke="#475569" stroke-width="1" opacity="0.2" />
+
+  <!-- Data Point Clusters (K-Means style) -->
+  <!-- Cluster 1 (Left) -->
+  <circle cx="200" cy="200" r="8" fill="#6366f1" opacity="0.8" />
+  <circle cx="180" cy="180" r="4" fill="#6366f1" opacity="0.5" />
+  <circle cx="220" cy="210" r="5" fill="#6366f1" opacity="0.6" />
+  <circle cx="190" cy="220" r="4" fill="#6366f1" opacity="0.4" />
+  <!-- Cluster 2 (Top Middle) -->
+  <circle cx="400" cy="100" r="8" fill="#a855f7" opacity="0.8" />
+  <circle cx="380" cy="80" r="4" fill="#a855f7" opacity="0.5" />
+  <circle cx="420" cy="110" r="5" fill="#a855f7" opacity="0.6" />
+  <circle cx="410" cy="85" r="4" fill="#a855f7" opacity="0.4" />
+  <!-- Cluster 3 (Bottom Middle) -->
+  <circle cx="350" cy="300" r="8" fill="#06b6d4" opacity="0.8" />
+  <circle cx="330" cy="290" r="5" fill="#06b6d4" opacity="0.6" />
+  <circle cx="370" cy="310" r="4" fill="#06b6d4" opacity="0.5" />
+  <!-- Cluster 4 (Center) -->
+  <circle cx="600" cy="250" r="12" fill="url(#accent-grad-1)" filter="url(#glow)" opacity="0.9" />
+  <circle cx="560" cy="230" r="5" fill="#a855f7" opacity="0.6" />
+  <circle cx="640" cy="270" r="6" fill="#6366f1" opacity="0.7" />
+  <circle cx="580" cy="280" r="4" fill="#06b6d4" opacity="0.5" />
+  <!-- Cluster 5 (Right) -->
+  <circle cx="1000" cy="280" r="8" fill="#3b82f6" opacity="0.8" />
+  <circle cx="980" cy="260" r="5" fill="#3b82f6" opacity="0.6" />
+  <circle cx="1020" cy="290" r="4" fill="#3b82f6" opacity="0.5" />
+
+  <!-- Decorative Rings -->
+  <circle cx="600" cy="250" r="40" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,8" fill="none" opacity="0.4" />
+  <circle cx="600" cy="250" r="80" stroke="#6366f1" stroke-width="1" stroke-dasharray="6,12" fill="none" opacity="0.2" />
+
+  <!-- Title Text -->
+  <text x="600" y="160" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-size="52" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    AWESOME UNSUPERVISED LEARNING
+  </text>
+
+  <!-- Subtitle Text -->
+  <text x="600" y="205" font-family="'Inter', system-ui, sans-serif" font-size="18" font-weight="500" fill="#94a3b8" text-anchor="middle" letter-spacing="6">
+    EVOLUTION • ALGORITHMS • APPLICATIONS
+  </text>
+</svg>

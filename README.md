@@ -11,7 +11,10 @@ The technical progression of unsupervised learning has transitioned from rigid d
 
 
 ```mermaid
-[Classical Geometric Partitioning] ----> [Generative Latent Modeling] ----> [Modern Self-Supervised Foundations](Static K-Means / Linkage Trees)         (VAE / Normalizing Flows / GANs)       (Next-Token Prediction / Masked Patches)
+flowchart LR
+    A["Classical Geometric Partitioning<br/>(Static K-Means / Linkage Trees)"]
+    --> B["Generative Latent Modeling<br/>(VAE / Normalizing Flows / GANs)"]
+    --> C["Modern Self-Supervised Foundations<br/>(Next-Token Prediction / Masked Patches)"]
 ```
 
 *   **The Classical Clustering & Association Era (Traditional ML)**
